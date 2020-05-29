@@ -1,0 +1,44 @@
+{
+    "cells": [
+        {
+            "metadata": {
+                "collapsed": true
+            },
+            "cell_type": "markdown",
+            "source": "Berlin - A City of many foods"
+        },
+        {
+            "metadata": {},
+            "cell_type": "markdown",
+            "source": "## Background:\n\nBerlin is a city of many faces. It is a vibrant, modern metropolis. It is home to 3,5 Million people from all over the world. Its diversity is mirrored by its venues! \n\nBerlin is also where many significant events in modern history have taken place. Until 1989, Berlin was divided and part of two countries: the Federal Republic of Germany (BRD) and the German Democratic Republic (DDR). More than 30 years ago, the city has had time to heal. But many differences are still visible today, for example in architecture. Also, although heterogenous compared to most other capitals in the world, areas in Berlin differ in income level of its inhabitants.\n\nFoodwise, Berlin is very diverse. It is the birthplace of the turkisch style \"Doener\". From Japanese to Ethopian food, any cuisine from any country is available in Berlin.\n\n\n## The Business Case:\n\nAn investor specialized in opening new venues is planning to move onto the Berlin market. He would like to infuse his strategy with a data driven approach. The idea is to cluster districts based on venue type, price and ratings. Furthermore, the investor would like to see if there are any differences between parts of the city which were formerly east and west berlin.\n\n\n## The Data:\n\nThe data is assembled from several sources:\n\nFirstly, the location data of Berlins destricts are downloaded in form of a GeoJSON file from the URL https://data.technologiestiftung-berlin.de/dataset/lor_bezirksregionen/en. The districts are superimposed on a map of Berlin using Folium.\n\nSecondly, venue data is extracted using the Foursquare API. Relevant venue data includes:\n- Location\n- Type\n- Price Level\n- Rating\n\nThirdly, the data on districts formerly belonging to east or west berlin is scraped from the Wikipedia page regarding the districts of Berlin.\n"
+        },
+        {
+            "metadata": {},
+            "cell_type": "code",
+            "source": "",
+            "execution_count": null,
+            "outputs": []
+        }
+    ],
+    "metadata": {
+        "kernelspec": {
+            "name": "python3",
+            "display_name": "Python 3.6",
+            "language": "python"
+        },
+        "language_info": {
+            "name": "python",
+            "version": "3.6.9",
+            "mimetype": "text/x-python",
+            "codemirror_mode": {
+                "name": "ipython",
+                "version": 3
+            },
+            "pygments_lexer": "ipython3",
+            "nbconvert_exporter": "python",
+            "file_extension": ".py"
+        }
+    },
+    "nbformat": 4,
+    "nbformat_minor": 1
+}
